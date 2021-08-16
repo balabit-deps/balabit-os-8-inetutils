@@ -1,3 +1,12 @@
+inetutils (2:1.9.4-11ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Arbitrary remote code execution
+    - debian/patches/CVE-2020-10188.patch: telnetd: Fix arbitrary remote code
+      execution via short writes or urgent data.
+    - CVE-2020-10188
+
+ -- Paulo Flabiano Smorigo <pfsmorigo@canonical.com>  Mon, 16 Aug 2021 13:33:08 +0000
+
 inetutils (2:1.9.4-11) unstable; urgency=medium
 
   * Add patches from upstream:

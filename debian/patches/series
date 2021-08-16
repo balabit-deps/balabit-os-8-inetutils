@@ -38,3 +38,4 @@
 # Taken from upstream git master
 0036-telnet-Telnet-E-no-escape-is-treating-_POSIX_VDISABL.patch
 0037-telnet-Validate-supplied-environment-variables.-CVE-.patch
+CVE-2020-10188.patch
