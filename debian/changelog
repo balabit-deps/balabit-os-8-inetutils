@@ -1,3 +1,17 @@
+inetutils (2:1.9.4-11ubuntu0.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: NULL dereference DoS
+    - debian/patches/CVE-2022-39028.patch: fix remote DoS
+      in inetutils-telnetd in telnetd/state.c.
+    - CVE-2022-39028
+  * SECURITY UPDATE: Privilege escalation
+    - debian/patches/CVE-2023-40303.patch: check setuid, setguid return values
+      in ftpd/ftpd.c, src/rpc.c, src/rlogin.c, src/rsh.c, src/rshd.c,
+      src/uucpd.c.
+    - CVE-2023-40303
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Tue, 15 Aug 2023 13:26:59 -0300
+
 inetutils (2:1.9.4-11ubuntu0.1) focal-security; urgency=medium
 
   * SECURITY UPDATE: Arbitrary remote code execution
